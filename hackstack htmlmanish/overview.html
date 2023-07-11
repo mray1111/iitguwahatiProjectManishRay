@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+           
+           height: 200px;
+           background-color: #cccccc;
+            background-image: linear-gradient(black, rgb(230, 141, 9));
+        }
+        
+
+        img {
+      float: left;
+      margin: 5px;
+      height:500px;
+    }
+
+    .navigation{
+    display:flex;
+    justify-content: center;
+    width:auto;
+    background-color: #00b4d8;
+    max-height: 70px;
+    margin-left: auto;
+}
+.image{
+    height:48px;
+    width:48px;
+    align-content: space-between;
+    margin-top: 10px;
+    margin-right:auto;
+    border-radius: 6px;
+}
+
+.heading{
+    position:absolute;
+    margin-left:-950px;
+}
+  
+        .overview{
+    display:block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-evenly;
+    color:white;
+        }
+
+       .overviewflex1{
+        text-align: left;
+        color:white;
+       }
+       .empty{
+        background-color: white;
+        width:100%;
+        height:40px;
+       }
+    </style>
+</head>
+<body class="body">
+    <div class="navigation">
+        <img src="/image.jpg" class="image" alt="logo">
+        <h1 class="heading">Movies</h1>
+     </div>
+     <div class="empty"></div>
+     <p>
+    <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg" alt="poster" style="border-radius: 10px;">
+    <div class="overview">
+        <h1 class="overviewflex1">John Wick: Chapter 4 (2023)</h1>
+        <h3 class="overviewflex2"><pre>03/24/2023 (US)  Action, Thriller, Crime 2h 50m</pre></h3>
+        <br>
+        <h3 class="overviewflex3">
+            <pre>
+ <u>Overview</u>
+
+ With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before 
+ he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and 
+ forces that turn old friends into foes.
+            </pre>
+        </h3>
+        <br>
+        <h3>
+            <pre>
+  Derek Kolstad               Chad Stahelski              Shay Hatten
+
+  Characters                   Director                   Writer
+
+            </pre>
+        </h3>
+    </div>
+</p>
+     
+</body>
+</html>
